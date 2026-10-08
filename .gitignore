@@ -3,3 +3,25 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Database files (coda's SQLite data)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging and build output
+dist/
+build/
+*.egg-info/
+
+# Local config and OS files
+.env
+.DS_Store
